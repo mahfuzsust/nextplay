@@ -1,6 +1,6 @@
-nextplay
+NextPlay
 ========
-About:
+About
 ------
 
 * NextPlay is an open source Game Engine. It is developed in C++ and in basic C. It is very much easy to understand and easy to update.
@@ -42,7 +42,7 @@ How to:
 3. Copy the library in the existing project and add the files on the project.
 4. In "main.cpp" write the following code:
 
-  #include “header.h”
+	#include “header.h”
 	Void key (unsigned char key , int x , int y)
 	{
 		switch (key)
@@ -88,4 +88,4 @@ If you face any problem and wish to know anything, direct contact with me. Any s
 Email: mahfuz@student.sust.edu
        mahfuz.sust001@gmail.com
 
-Website: http://mahfuz.orgfree.com
+Website: http://www.mahfuzsust.info

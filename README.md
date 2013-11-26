@@ -42,7 +42,7 @@ How to:
 3. Copy the library in the existing project and add the files on the project.
 4. In "main.cpp" write the following code:
 
-	#include “header.h”
+	include “header.h”
 	Void key (unsigned char key , int x , int y)
 	{
 		switch (key)

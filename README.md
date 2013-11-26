@@ -1,4 +1,4 @@
-NextPlay
+﻿NextPlay
 ========
 About
 ------
@@ -40,41 +40,7 @@ How to:
 1. Setup the glut on the computer.
 2. Create a glut project.
 3. Copy the library in the existing project and add the files on the project.
-4. In "main.cpp" write the following code:
-
-	include “header.h”
-	Void key (unsigned char key , int x , int y)
-	{
-		switch (key)
-		{
-			case ‘q’:
-				exit (0);
-				break;
-		}
-	}
-	Void Special_key (unsigned char key , int x , int y)
-	{
-		switch  (key)
-		{
-			case GLUT_KEY_UP:
-			exit (0);
-			break;
-		}
-	}
-	Void display ()
-	{
-		Clear_display();
-		draw_circle(20,20,30)
-		//Write code to display something here
-	}
-	int main (int argc ,  char *argv[])
-	{
-		char Title[80] = "Your game name";
-		create_window (argc , argv , 300 , 300 , 50 , 50 , Title);
-		return EXIT_SUCCESS;
-	}
-
-
+4. Run the main.cpp file.
 5. If there is a circle in your window, then the setup is complete.
 6. Now implement you game logic and make games as you wish. 
 7. Happy coding(gaming) and Have a nice day :)
@@ -85,7 +51,6 @@ Contact:
 
 If you face any problem and wish to know anything, direct contact with me. Any suggestion and opinion will be appreciated with honor.
 
-Email: mahfuz@student.sust.edu
-       mahfuz.sust001@gmail.com
+Email: mahfuz.sust001@gmail.com       
 
 Website: http://www.mahfuzsust.info
